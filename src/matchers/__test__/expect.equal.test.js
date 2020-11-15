@@ -13,7 +13,6 @@ describe("expect.equal", () => {
     expect(fn).toEqual(expect.any(Function));
   });
   test("TODO 5", () => {
-    // TODO 5: to replace "matcher"
     expect(undefined).toBeUndefined();
   });
   test("TODO 6", () => {
@@ -28,7 +27,6 @@ describe("expect.equal", () => {
     expect({ a: 1 }).toEqual({ a: 1 });
   });
   test("TODO 9", () => {
-    // TODO 9: to replace "expected" value
     class LaCroix {
       constructor(flavor) {
         this.flavor = flavor;
